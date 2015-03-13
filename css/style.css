@@ -1,0 +1,79 @@
+.color{
+    background-color:rgba( 255, 255, 255, 0.275 ) ;  
+}
+
+input{
+    color:black;
+}
+
+.first{
+    margin-top: 50px;
+}
+
+.first h1{
+    border-bottom: 2px solid #FFF;
+}
+
+#add{
+    position:absolute;
+    top:50px;
+    right:0px;
+    background: #2d2d2d;
+    padding: 10px 10px 10px 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+    z-index: 1000;
+}
+
+body{
+    background-color:#19e57c;
+    color:#FFF;
+}
+
+.last-pochette img{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media screen and (max-width:991px) { 
+.last-pochette img{
+    max-width: 382px;
+    margin-bottom: 5px;
+}
+}
+
+.album{
+    background-color: #515151;
+    height:200px;
+    border-bottom: solid 10px #777777;
+}
+
+.album-photo{
+    width:auto;;
+    max-height:200px;
+}
+
+a{
+    color: #FFF;
+}
+
+a:hover{
+    color:#FFF;
+}
+
+table{
+    width: 100%;
+    margin-top:10px;
+    color:black;
+}
+td{
+    width:100%;
+}
+
+tr:hover{
+    background-color:black;
+    color:white;
+}
+th{
+    font-size:20px;
+}
