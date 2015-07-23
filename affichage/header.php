@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
+        <title>Music Archive</title>
         <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"/>
         <link type="text/css" rel="stylesheet" href="../css/style.css"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <meta charset="utf-8"/>
+        <meta charset="UTF-8">
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -33,9 +34,9 @@
                     <li><a href="">Artistes</a></li>
                     <li><a class="modal-trigger" href="#modal1">Ajouter un album</a></li>
                     <li>
-                        <div class="input-field">
-                            <input type="text" class="validate black-text" id="search-mobile">
-                            <label class="black-text menu-search-mobile" for="search-mobile">Recherche</label>
+                        <div class="input-field"><form action="recherche.php" method="get">
+                            <input type="text" class="validate black-text" name="q" id="search-mobile">
+                            <label class="black-text menu-search-mobile" for="search-mobile">Recherche</label></form>
                         </div>
                     </li>
                 </ul>

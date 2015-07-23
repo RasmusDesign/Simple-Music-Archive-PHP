@@ -40,6 +40,8 @@
     $(document).ready(function(){
         // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
         $('.modal-trigger').leanModal();
+        var w = $('.image_artiste_search').width();
+        $('.image_artiste_search').css("height",w+'px');
     });
 </script>
 </body>
